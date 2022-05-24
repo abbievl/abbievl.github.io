@@ -1,0 +1,120 @@
+body {background-color:#D2C4D6}
+h1 {color: #FFFFFF;
+	text-align:center;
+	font-family: copperplate, fantasy;
+}
+p {color: #FFFFFF;
+	text-align:center;
+	font-size: 2vw;
+	font-family: "corrier new", monospace;
+	}
+
+.topnav {
+	background-color: #D1DBC7;
+	overflow:hidden;
+	width: 100%;
+	margin: 0 auto;
+	}
+.topnav p {
+	float: left;
+	padding-left: 2vw;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 1 px 1px;
+	font-size:2vw;
+	font-family: "Andale Mono", monospace;
+	font-weight: bold;
+	font-stretch: expanded;
+	font-variant: small-caps;
+	}
+.topnav a {
+	float:right;
+	padding-right: 2vw;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 2vw 1vw;
+	text-decoration: none;
+	font-size:1vw;
+	font-family: "corrier new", monospace;
+	}
+.topnav a:hover{
+	background-color: #25361E;
+	}
+.topnav a.active{
+	background-color: #25361E;
+	}
+.myGallery{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	background-color: #FFFFFF;
+	padding: 15px;
+	padding-top: 30px;
+}
+
+.myGallery img {
+	width: 100%;
+	vertical-align: middle;
+}
+.footer {
+	background-color: #D1DBC7;
+	height: 20vw;
+	width:100%;
+	padding-top: 3vw;
+}
+.bottom {
+	font-family: "Andale Mono", monospace;
+	font-weight: bold;
+	font-size: 16px;
+	font-stretch: expanded;
+	padding-left: 30px;
+	padding-top: 10px;
+	text-align: center;
+	}
+.main {
+	background-color: #FFFFFF;
+	padding-bottom: 3vw;
+	padding-top: 3vw;
+	padding-right: 5vw;
+	padding-left: 5vw;
+
+}
+.text {
+	color: #25361E;
+	font-size: 2vw;
+}
+.head{
+	color: #25361E;
+	font-size: 4vw;}
+.special {
+	color: #25361E;
+	padding-right: 0%;
+	padding-left: 0%;
+}
+.responsive {
+	width: 70%;
+	height:auto;
+}
+.tall {
+	width: 30%;
+	height: auto;
+}
+img {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 100%;
+	height: auto;
+	}
+video{display: block;
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 100%;
+	height: auto;
+	}
+.link a:hover{
+	color:#FFFFFF;
+}
+.link{
+	color:#301934;
+}
